@@ -43,8 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Backpack.cs" />
+    <Compile Include="Can.cs" />
+    <Compile Include="Card.cs" />
+    <Compile Include="Coin.cs" />
+    <Compile Include="Cola.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="Dime.cs" />
+    <Compile Include="Nickle.cs" />
+    <Compile Include="OrangeSoda.cs" />
+    <Compile Include="Penny.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Quarter.cs" />
+    <Compile Include="RootBeer.cs" />
+    <Compile Include="Simulation.cs" />
+    <Compile Include="SodaMachine.cs" />
+    <Compile Include="Wallet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
