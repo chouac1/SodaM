@@ -10,10 +10,12 @@ namespace SodaMachineProj
     {
         //Member Variables (Has A)
 
+        double money;
+
         //Constructor (Spawner)
         public Wallet()
         {
-
+            money = 5;
         }
 
         //Member Methods (Can Do)

@@ -11,10 +11,10 @@ namespace SodaMachineProj
         //Member Variables (Has A)
 
         //Constructor (Spawner)
-        public Cola(string name, double Cost)
+        public Cola()
         {
             name = "Cola";
-            Cost = .35;
+            cost = .35;
         }
 
         //Member Methods (Can Do)

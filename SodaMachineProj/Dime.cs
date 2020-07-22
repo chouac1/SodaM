@@ -12,10 +12,10 @@ namespace SodaMachineProj
 
         
         //Constructor (Spawner)
-        public Dime(string name, double Value)
+        public Dime()
         {
             name = "Dime";
-            Value = .10;
+            value = .10;
         }
 
 

@@ -13,10 +13,10 @@ namespace SodaMachineProj
         
 
         //Constructor (Spawner)
-        public Penny(string name, double Value)
+        public Penny()
         {
             name = "Penny";
-            Value = .01;
+            value = .01;
         }
 
         //Member Methods (Can Do)

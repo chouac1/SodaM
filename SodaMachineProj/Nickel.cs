@@ -12,10 +12,10 @@ namespace SodaMachineProj
 
         
         //Constructor (Spawner)
-        public Nickel(string name, double Value)
+        public Nickel()
         {
             name = "Nickel";
-            Value = .05;
+            value = .05;
 
         }
 

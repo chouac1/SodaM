@@ -11,7 +11,7 @@ namespace SodaMachineProj
     {
         //Member Variables (Has A)
 
-        private double value = 1;
+        protected double value;
         public double Value
         {
             get

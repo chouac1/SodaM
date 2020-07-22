@@ -12,10 +12,10 @@ namespace SodaMachineProj
 
         
         //Constructor (Spawner)
-        public Quarter(string name, double Value)
+        public Quarter()
         {
             name = "Quarter";
-            Value = .25;
+            value = .25;
         }
 
         //Member Methods (Can Do)

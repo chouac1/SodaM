@@ -10,7 +10,7 @@ namespace SodaMachineProj
     {
         //Member Variables (Has A)
 
-        private double cost = 1;
+        protected double cost;
         public double Cost
         {
             get

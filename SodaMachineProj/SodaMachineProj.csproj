@@ -59,6 +59,7 @@
     <Compile Include="RootBeer.cs" />
     <Compile Include="Simulation.cs" />
     <Compile Include="SodaMachine.cs" />
+    <Compile Include="UserInterface.cs" />
     <Compile Include="Wallet.cs" />
   </ItemGroup>
   <ItemGroup>
