@@ -6,11 +6,16 @@ using System.Threading.Tasks;
 
 namespace SodaMachineProj
 {
-    class Cola
+    class Cola : Can
     {
         //Member Variables (Has A)
 
         //Constructor (Spawner)
+        public Cola(string name, double Cost)
+        {
+            name = "Cola";
+            Cost = .35;
+        }
 
         //Member Methods (Can Do)
     }

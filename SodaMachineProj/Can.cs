@@ -10,7 +10,27 @@ namespace SodaMachineProj
     {
         //Member Variables (Has A)
 
+        private double cost = 1;
+        public double Cost
+        {
+            get
+            {
+                return cost;
+            }
+            //set
+            //{
+            //    value = 1;
+            //}
+        }
+        
+        public string name;
+
         //Constructor (Spawner)
+
+        public Can()
+        {
+
+        }
 
         //Member Methods (Can Do)
     }

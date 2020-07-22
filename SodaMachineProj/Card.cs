@@ -11,6 +11,10 @@ namespace SodaMachineProj
         //Member Variables (Has A)
 
         //Constructor (Spawner)
+        public Card()
+        {
+
+        }
 
         //Member Methods (Can Do)
     }

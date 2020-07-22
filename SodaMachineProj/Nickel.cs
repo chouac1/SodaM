@@ -6,11 +6,18 @@ using System.Threading.Tasks;
 
 namespace SodaMachineProj
 {
-    class Nickle
+    class Nickel : Coin
     {
         //Member Variables (Has A)
 
+        
         //Constructor (Spawner)
+        public Nickel(string name, double Value)
+        {
+            name = "Nickel";
+            Value = .05;
+
+        }
 
         //Member Methods (Can Do)
     }

@@ -11,6 +11,10 @@ namespace SodaMachineProj
         //Member Variables (Has A)
 
         //Constructor (Spawner)
+        public Customer()
+        {
+
+        }
 
         //Member Methods (Can Do)
     }

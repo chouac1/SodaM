@@ -12,6 +12,11 @@ namespace SodaMachineProj
 
         //Constructor (Spawner)
 
+        public Backpack()
+        {
+
+        }
+
         //Member Methods (Can Do)
     }
 }
