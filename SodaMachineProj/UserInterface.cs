@@ -8,6 +8,6 @@ namespace SodaMachineProj
 {
     public static class UserInterface
     {
-
+        //US #5 console interactions inside this class
     }
 }

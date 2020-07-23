@@ -10,14 +10,35 @@ namespace SodaMachineProj
     {
         //Member Variables (Has A)
 
-        double money;
+        public List<Coin> customerWallet; //
 
         //Constructor (Spawner)
         public Wallet()
         {
-            money = 5;
+            customerWallet = new List<Coin>();
+            AddCustomerCoins(); //current inventory: 8 quarters, 10 dimes, 20 nickels, 100 pennies ($2 quarters, $1 each).
         }
 
         //Member Methods (Can Do)
+
+        public void AddCustomerCoins()
+        {
+            for (int i = 0; i < 11; i++)
+            {
+                customerWallet.Add(new Quarter());
+            }
+            for (int i = 0; i < 11; i++)
+            {
+                customerWallet.Add(new Dime());
+            }
+            for (int i = 0; i < 21; i++)
+            {
+                customerWallet.Add(new Nickel());
+            }
+            for (int i = 0; i < 101; i++)
+            {
+                customerWallet.Add(new Penny());
+            }
+        }
     }
 }
