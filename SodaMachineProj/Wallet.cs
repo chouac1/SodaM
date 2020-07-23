@@ -23,19 +23,19 @@ namespace SodaMachineProj
 
         public void AddCustomerCoins()
         {
-            for (int i = 0; i < 11; i++)
+            for (int i = 0; i < 2; i++)
             {
                 customerWallet.Add(new Quarter());
             }
-            for (int i = 0; i < 11; i++)
+            for (int i = 0; i < 2; i++)
             {
                 customerWallet.Add(new Dime());
             }
-            for (int i = 0; i < 21; i++)
+            for (int i = 0; i < 2; i++)
             {
                 customerWallet.Add(new Nickel());
             }
-            for (int i = 0; i < 101; i++)
+            for (int i = 0; i < 2; i++)
             {
                 customerWallet.Add(new Penny());
             }

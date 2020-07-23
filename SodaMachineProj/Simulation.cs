@@ -13,6 +13,7 @@ namespace SodaMachineProj
         //Constructor (Spawner)
         public Simulation()
         {
+            UserInterface userInterface = new UserInterface();
 
         }
 

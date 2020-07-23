@@ -10,9 +10,10 @@ namespace SodaMachineProj
     {
         static void Main(string[] args)
         {
-            SodaMachine sodaMachine = new SodaMachine();
-            sodaMachine.BuySoda();
-            
+            //Customer customer = new Customer();
+            //customer.SelectACoin();
+
+
 
 
         }
