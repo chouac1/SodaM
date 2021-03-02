@@ -1,0 +1,24 @@
+Customer class:
+ChooseCoinsToDeposit() [Line 18]: 
+20. creates a list of coins (called "deposit") and setting it to null.
+22. while "input" is true perform task.
+24. UserInterface.DisplayCoinOptions will test to see if it returns an integer32, if so, it will return the number (coinChoice).
+26. if success is true, and coinChoice is greater than 0 and less than 5 then perform task below.
+28. if wallet (in your constructor) contains coinChoice (1-4), then proceed task below (also note that "CointainsCoin" is a method inside the wallet class and not the same as the ".Contains" method inside the List<> class).
+30. Remove "coinChoice" from your wallet using the "RemoveCoin" method inside the wallet class.
+31. your "coinChoice" will be added to your list (deposit) using <Customer.>DepositSingleCoin() which takes a parameter of "coinChoice" and List<Coin> "deposit". Inside this method (Customer.DepositSingleCoin() line 55) it will check to see if your List<Coin> "deposit" is null, if it is, it will create a new list. The method will then prompt the SWITCH case which will add whichever coin was chosen to the list "deposit".
+33. If success is not true and coinChoice is not greater than 0 and less than 5 it will trigger UserInterface.NoCoinMessage indicating "You don't have any coins of type: {coinName}!"
+36. If coinChoice == 5
+38. If deposit (List<Coin>) is not equal to null then input is false (line 39). This will take the user out of loop and allow user to choose a soda.
+41. if coinChoice == 6
+43. If list of deposit is not null then return the coins inside list of deposits to wallet, and clear everything inside the list of deposits using "deposit.Clear()."
+49-50: Will always display the WelcomeMessage() prompting what sodas are offered, and DisplayValue() will show how much money has been in
+
+SodaMachine class:
+DispenseSodaToCustomer() - This method takes in a 'customer' and 'can' argument, then using the SodaMachine.RemoveCan() method, it will remove the selected 'can' from the inventory. Secondly, it will add the can selection into the customer backpack.
+
+RemoveCan() - this method takes in a 'can' argument and iterates through the for loop of every index of the inventory. If the inventory name matches 'can' name then it will remove it from the inventory.
+
+CreateChange() - this method takes in a number (double) 'changeAmount' argument, creates a List<Coin> called 'refund'. Iterates through each coin in register (also a List<Coin>). 'changeAmount' is rounded two decimals using the 'Math.Round' method. Then if coin.Value and 'changeAmount' is equal to either .25, .10, .05, .01 then it will subtract that value from 'changeAmount', remove that coin from register, and add that coin to the 'refund' list. 'changeAmount' is once again rounded two decimals and if it does not equal 0, then 'refund' will be added back into the register using method SodaMachine.AcceptCoins(). Lastly, clears the refund list.
+
+AcceptCoins() - Takes in a list of coins called 'deposit'. Iterates through each coin inside the list of deposit
